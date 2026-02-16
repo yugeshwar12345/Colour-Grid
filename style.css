@@ -1,7 +1,6 @@
 body{
     background-color: violet;
-    padding-top: 200px;
-    margin-left: 400px;
+   
 }
 .con{
     display: grid;
@@ -11,6 +10,7 @@ body{
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 10px;
+    
 }
 .item1{
     background-color: green;
@@ -47,4 +47,9 @@ body{
 }
 .item8{
     background-color: yellow;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
